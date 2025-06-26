@@ -5,7 +5,7 @@ from googleapiclient.discovery import build
 
 # --- CONFIGURATION ---
 # Path to your Google service account credentials JSON file
-SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "service_account.json")
+SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "serviceaccount.json")
 # The calendar ID (usually user's email or the calendar's ID)
 # IMPORTANT: Set this to your Google Calendar email (not 'primary') if you are not the service account owner
 CALENDAR_ID = os.getenv("GOOGLE_CALENDAR_ID", "msaswata15@gmail.com")  # e.g. 'yourname@gmail.com'
